@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+#include<iostream.h>
+void main()
+{
+clrscr();
+float ctemp, ftemp;
+cout << "\n Enter temperature in fahrenehrit:";
+cin >> ftemp;
+ctemp=(ftemp-32)*5/9;
+cout << "\n Equivalent celcius" << ctemp << "\n";
+getch();
+}
